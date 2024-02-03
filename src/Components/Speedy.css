@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 70vw;
+    margin: 2em auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex-wrap: wrap;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    gap: 10px;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+.header img{
+    width: 60px;
+    height: 60px;
+}
+
+.form-inputs{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+    gap: 1em;
+    
+    padding: 1em;
+    
+}
+.form-inputs:hover{
+    cursor: pointer;
+}
+
+.input{
+    margin: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.8);
+
+}
+
+input{
+    height: 30px;
+    width: 85%;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    display:in-flex;
+}
+
+.input button{
+    border: 1.5px solid rgb(100, 100, 100);
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 10px;
+    color: white;
+    padding: 2px;
+    margin: 4px;
+    width: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-self: flex-end;
+    background-color: black;
+}
+
+.input button:hover{
+    cursor: pointer;
+    color: rgb(231, 19, 19);
+
+}
+
+legend{
+    color: rgb(68, 68, 68);
+    font-size: smaller;
+    
+}
+
+fieldset{
+    border: none;
+    margin-top: 8px;
+}
+
+
+.fabricate-btn{
+    height: 30px;
+    width: 100%;
+    margin-top: 5rem;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: transparent;
+    align-self: center;
+    
+}
+
+.fabricate-btn:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.materials{
+    margin-top: 3em;
+    min-height: 40vh;
+    padding:2em;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+    
+}
+li{
+    list-style: none;
+    
+}
+.foot{
+    height: 60vh;
+    background-color: black;
+    color: whitesmoke;
+    padding:2em;
+    padding-bottom: 0px;
+    margin: 0;
+
+}
+
+.foot p{
+    font-size: small;
+    line-height: 2;
+    padding: 1em;
+
+}
